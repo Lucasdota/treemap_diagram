@@ -1,0 +1,51 @@
+body {
+	background-color: rgb(46, 46, 46);
+	color: aliceblue;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+}
+
+a {
+	color: rgb(91, 203, 255);
+  text-decoration: none;
+	&:hover{
+		color:rgb(157, 224, 255);
+	}
+}
+
+svg {
+  font-size: 11px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+div.tooltip {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 12px;
+  position: absolute;
+  padding: 10px;
+	color: black;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 1px 1px 10px rgba(100, 100, 100, 0.8);
+  border: 0;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.tile-text {
+  cursor: default;
+}
+
+#title {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+#description {
+  padding-bottom: 1.5rem;
+}
+
+.rect-hover {
+  filter: brightness(130%);
+}
